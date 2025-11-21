@@ -74,7 +74,7 @@ if __name__ == "__main__":
     
     # Loss and optimizer
     criterion = nn.CrossEntropyLoss()
-    optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+    optimizer = optim.Adam(model.parameters(), lr=0.0003, weight_decay=1e-5)
     
     # Training loop
     best_val_acc = 0.0

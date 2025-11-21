@@ -80,6 +80,11 @@ class GTZANDataset(Dataset):
             mel = mel[0] if mel.shape[0] == 2 else mel.squeeze(0)
         # Add channel dimension: [n_mels, time_frames] -> [1, n_mels, time_frames]
         mel = mel.unsqueeze(0)
+
+        time_mask = torchaudio.transforms.TimeMasking(time_mask_param=30)
+        freq_mask = torchaudio.transforms.FrequencyMasking(freq_mask_param=15)
+
+        mel = time_mask(freq_mask(mel))
         
         return mel, label 
         
