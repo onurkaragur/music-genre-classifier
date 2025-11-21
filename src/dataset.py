@@ -5,7 +5,7 @@ import librosa
 from torch.utils.data import Dataset
 
 class GTZANDataset(Dataset):
-    def __init__(self, root_dir, sample_rate=22050, n_mels=64, duration=3):
+    def __init__(self, root_dir, sample_rate=22050, n_mels=128, duration=30):
         self.root_dir = root_dir
         self.sample_rate = sample_rate #Sample Rate (Hz) for audio. 22050 is common.
         self.n_mels = n_mels
@@ -16,7 +16,7 @@ class GTZANDataset(Dataset):
             sample_rate=sample_rate,
             n_mels=n_mels,
             n_fft=2048,
-            hop_length=512
+            hop_length=256
         )
 
         self.file_paths = []
