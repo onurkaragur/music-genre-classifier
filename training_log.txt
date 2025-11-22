@@ -1,89 +1,92 @@
 Training Log
 ==================================================
 Epoch 1/20
-  Train Loss: 2.2895, Train Acc: 11.73%
-  Val Loss: 2.2495, Val Acc: 18.00%
-  [SAVED] New best model (Val Acc: 18.00%)
+  Train Loss: 2.2654, Train Acc: 14.02%
+  Val Loss: 2.2348, Val Acc: 24.00%
+  [SAVED] New best model (Val Acc: 24.00%)
 
 Epoch 2/20
-  Train Loss: 2.1809, Train Acc: 22.32%
-  Val Loss: 2.0687, Val Acc: 26.00%
-  [SAVED] New best model (Val Acc: 26.00%)
+  Train Loss: 2.0964, Train Acc: 31.33%
+  Val Loss: 2.1481, Val Acc: 20.00%
 
 Epoch 3/20
-  Train Loss: 1.9966, Train Acc: 26.90%
-  Val Loss: 2.0110, Val Acc: 24.00%
-
-Epoch 4/20
-  Train Loss: 1.8668, Train Acc: 32.33%
-  Val Loss: 1.9933, Val Acc: 28.67%
+  Train Loss: 1.9524, Train Acc: 41.06%
+  Val Loss: 2.0784, Val Acc: 28.67%
   [SAVED] New best model (Val Acc: 28.67%)
 
+Epoch 4/20
+  Train Loss: 1.8415, Train Acc: 48.78%
+  Val Loss: 2.0020, Val Acc: 31.33%
+  [SAVED] New best model (Val Acc: 31.33%)
+
 Epoch 5/20
-  Train Loss: 1.7760, Train Acc: 37.05%
-  Val Loss: 2.0260, Val Acc: 30.67%
-  [SAVED] New best model (Val Acc: 30.67%)
+  Train Loss: 1.6900, Train Acc: 58.66%
+  Val Loss: 1.9017, Val Acc: 30.67%
 
 Epoch 6/20
-  Train Loss: 1.6601, Train Acc: 42.92%
-  Val Loss: 1.9837, Val Acc: 32.00%
-  [SAVED] New best model (Val Acc: 32.00%)
+  Train Loss: 1.5505, Train Acc: 64.52%
+  Val Loss: 1.8336, Val Acc: 36.67%
+  [SAVED] New best model (Val Acc: 36.67%)
 
 Epoch 7/20
-  Train Loss: 1.5725, Train Acc: 46.35%
-  Val Loss: 1.9914, Val Acc: 30.00%
+  Train Loss: 1.4413, Train Acc: 68.53%
+  Val Loss: 1.8209, Val Acc: 35.33%
 
 Epoch 8/20
-  Train Loss: 1.4794, Train Acc: 48.21%
-  Val Loss: 2.0633, Val Acc: 33.33%
-  [SAVED] New best model (Val Acc: 33.33%)
+  Train Loss: 1.3375, Train Acc: 73.96%
+  Val Loss: 1.7519, Val Acc: 40.67%
+  [SAVED] New best model (Val Acc: 40.67%)
 
 Epoch 9/20
-  Train Loss: 1.3794, Train Acc: 53.08%
-  Val Loss: 2.0923, Val Acc: 30.67%
+  Train Loss: 1.2262, Train Acc: 78.97%
+  Val Loss: 1.7034, Val Acc: 39.33%
 
 Epoch 10/20
-  Train Loss: 1.2845, Train Acc: 55.94%
-  Val Loss: 2.1493, Val Acc: 30.67%
+  Train Loss: 1.1245, Train Acc: 81.26%
+  Val Loss: 1.6660, Val Acc: 44.00%
+  [SAVED] New best model (Val Acc: 44.00%)
 
 Epoch 11/20
-  Train Loss: 1.2030, Train Acc: 59.08%
-  Val Loss: 2.2045, Val Acc: 34.00%
-  [SAVED] New best model (Val Acc: 34.00%)
+  Train Loss: 1.0127, Train Acc: 86.84%
+  Val Loss: 1.6758, Val Acc: 43.33%
 
 Epoch 12/20
-  Train Loss: 1.1143, Train Acc: 61.37%
-  Val Loss: 2.2396, Val Acc: 33.33%
+  Train Loss: 0.9089, Train Acc: 90.56%
+  Val Loss: 1.6094, Val Acc: 45.33%
+  [SAVED] New best model (Val Acc: 45.33%)
 
 Epoch 13/20
-  Train Loss: 1.0536, Train Acc: 63.23%
-  Val Loss: 2.3453, Val Acc: 33.33%
+  Train Loss: 0.7861, Train Acc: 93.71%
+  Val Loss: 1.6101, Val Acc: 44.67%
 
 Epoch 14/20
-  Train Loss: 0.9492, Train Acc: 66.52%
-  Val Loss: 2.4189, Val Acc: 28.67%
+  Train Loss: 0.6900, Train Acc: 93.42%
+  Val Loss: 1.5734, Val Acc: 46.00%
+  [SAVED] New best model (Val Acc: 46.00%)
 
 Epoch 15/20
-  Train Loss: 0.8720, Train Acc: 70.82%
-  Val Loss: 2.4570, Val Acc: 28.00%
+  Train Loss: 0.6313, Train Acc: 95.71%
+  Val Loss: 1.5702, Val Acc: 44.00%
 
 Epoch 16/20
-  Train Loss: 0.7925, Train Acc: 74.39%
-  Val Loss: 2.6215, Val Acc: 26.67%
+  Train Loss: 0.5266, Train Acc: 97.00%
+  Val Loss: 1.5081, Val Acc: 49.33%
+  [SAVED] New best model (Val Acc: 49.33%)
 
 Epoch 17/20
-  Train Loss: 0.6988, Train Acc: 77.11%
-  Val Loss: 2.7701, Val Acc: 28.67%
+  Train Loss: 0.4535, Train Acc: 97.42%
+  Val Loss: 1.5042, Val Acc: 49.33%
 
 Epoch 18/20
-  Train Loss: 0.6668, Train Acc: 78.11%
-  Val Loss: 2.9208, Val Acc: 31.33%
+  Train Loss: 0.4116, Train Acc: 96.85%
+  Val Loss: 1.4990, Val Acc: 49.33%
 
 Epoch 19/20
-  Train Loss: 0.6360, Train Acc: 79.69%
-  Val Loss: 3.1270, Val Acc: 28.00%
+  Train Loss: 0.3516, Train Acc: 98.28%
+  Val Loss: 1.4610, Val Acc: 53.33%
+  [SAVED] New best model (Val Acc: 53.33%)
 
 Epoch 20/20
-  Train Loss: 0.5701, Train Acc: 81.69%
-  Val Loss: 3.2174, Val Acc: 32.00%
+  Train Loss: 0.3003, Train Acc: 98.43%
+  Val Loss: 1.4568, Val Acc: 52.67%
 
